@@ -8,6 +8,7 @@
     tools:context=".MainActivity"
     android:background="@drawable/background3">
 
+    //test
 
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
