@@ -1,25 +1,153 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="laketahoefunfacts.caverocktech.com.funfactstahoe" >
+    package="laketahoefunfacts.caverocktech.com.funfactstahoe"
+    android:versionCode="1"
+    android:versionName="1.0" >
 
+    <uses-sdk android:minSdkVersion="19" />
 
 
     <application
+        android:largeHeap="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:screenOrientation="portrait"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:screenOrientation = "portrait">
-        <activity android:name=".ui.MainActivity" >
+        android:theme="@style/AppTheme" >
+        <activity android:name=".ui.MainActivity"
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.FactActivity"
-                  android:screenOrientation = "portrait">
+        <activity android:name=".Animals.BeaverActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.BearActivity"
+                  android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".Animals.BaldEagleActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.CoyoteActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.golden_mantled_ground_squirrelActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.hairy_woodpeckersActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Places.hilltop_lodgeActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_hilltop_lodge"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity android:name=".Plants.jeffreypineActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".History.john_c_fremontActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.lahontancutthroatActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".General.lake_tahoe_cover_caliActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".History.logging_comstockActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.mountain_chickadeeActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.mountain_lionActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Places.mt_tallacActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.northern_goshawkActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.oregon_juncoActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Sections.GeneralActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Sections.HistoryActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Sections.PlantsActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Sections.AnimalsActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Sections.PlacesActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".General.LakeClarityActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".General.LakeTahoeWinterActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".General.GoldFishActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".History.NativeAmericanActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".History.CombstockEraActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".History.TsunamiActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Plants.PonderosaPineActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Plants.SugarPineActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.YellowBelliedMarrmotActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.KokaneeActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.YellowHeadedBlackbirdActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.StellerJayActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.GoldenEagleActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.RobinActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.RedTailHawkActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.PorcupineActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Places.VikingsholmActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".Animals.WesternTangersActivity"
+                  android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".History.SSStahoeActivity"
+                  android:screenOrientation="portrait">
         </activity>
     </application>
 
